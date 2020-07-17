@@ -14,7 +14,7 @@ function woodCalculator(chair, table, bed) {
 }
 
 // function to find out your tiny friend name
-function tinyfriend(friend) {
+function tinyFriend(friend) {
     var smallName = Infinity;
     var tinyName;
     for (var i = 0; i < friend.length; i++) {
