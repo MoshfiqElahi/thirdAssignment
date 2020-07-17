@@ -1,9 +1,10 @@
+// a function to calculate feet to mile
 function feetToMile(feet) {
     var mile = feet / 5280;
     return mile;
 }
 
-
+// function to calculate wood for chair, table and bed
 function woodCalculator(chair, table, bed) {
     var chairWood = chair * 1;
     var tableWood = table * 3;
@@ -12,7 +13,7 @@ function woodCalculator(chair, table, bed) {
     return totalWood;
 }
 
-
+// function to find out your tiny friend name
 function tinyfriend(friend) {
     var smallName = Infinity;
     var tinyName;
@@ -25,6 +26,7 @@ function tinyfriend(friend) {
     return tinyName;
 }
 
+// function to calculate brick for building
 function brickCalculator(building) {
     var feetBricks = 1000;
     if (building >= 0 && building <= 10) {
